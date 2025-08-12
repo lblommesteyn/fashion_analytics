@@ -1,0 +1,130 @@
+# H&M Fashion Analytics - Git Ignore File
+
+# Large Data Files
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+data/outputs/*.csv
+*.parquet
+*.feather
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Model Files (large)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Log Files
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Streamlit
+.streamlit/
+
+# API Keys (if any)
+.env
+*.key
+secrets.json
+
+# Large Output Files
+*.png
+*.jpg
+*.jpeg
+plots/
+figures/
+
+# Keep folder structure but ignore contents
+data/raw/.gitkeep
+data/processed/.gitkeep
+data/outputs/.gitkeep

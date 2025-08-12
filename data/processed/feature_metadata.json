@@ -1,0 +1,38 @@
+{
+  "total_features": 630,
+  "feature_types": {
+    "Product Categories": 488,
+    "Color Features": 50,
+    "Text Features": 50,
+    "Pricing Features": 10,
+    "Demand Features": 9,
+    "Temporal Features": 4
+  },
+  "articles_covered": 105542,
+  "key_features": {
+    "categorical": [
+      "product_type_name",
+      "product_group_name",
+      "department_name",
+      "index_group_name",
+      "section_name",
+      "garment_group_name"
+    ],
+    "pricing": [
+      "price_mean",
+      "price_std",
+      "price_volatility",
+      "days_since_launch"
+    ],
+    "demand": [
+      "avg_weekly_sales",
+      "sales_momentum",
+      "recent_sales"
+    ],
+    "product": [
+      "product_type_name",
+      "colour_group_name",
+      "department_name"
+    ]
+  }
+}
